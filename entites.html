@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal website</title>
+    <link rel="shortcut icon" href="image/img1.webp" type="image/x-icon">
+    <link rel="stylesheet" href="HTMlCODES/add.css">
+    <style>
+        .form {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body onload="alert('welcome to normal webpage')">
+    <h1 onclick="alert('hey you clicked on application tag')" align="center">Application Form</h1>
+
+
+    <hr><br>
+    <form action="https://www.google,com/register" method="post" autocomplete="off">
+        <h1 id="heading" onmouseover="heading.innerText='fill details :'"
+            onmouseout="heading.innerText='provide detilas:'">Fill out all the deatils required: </h1>
+        <br>
+
+        <div>
+            <label for="Name:">Enter first name*: </label>
+            <input type="text" name="Name" id="name" placeholder="Enter first name" restricted>
+        </div>
+        <br>
+        <div>
+            <label for="Name:">Enter Last name: </label>
+            <input type="text" name="Name" id="name" placeholder="Enter Last name">
+        </div>
+        <br>
+        <div>
+            <label for="id">Enter id:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" name="id" id="i">
+        </div>
+        <br>
+        <div>
+            <label for="gen">Gender:</label>
+            <input type="radio" name="gen" id="g1" value="m"> <label for="gen">Male</label>&nbsp;&nbsp;
+            <input type="radio" name="gen" id="g2" value="f"><label for="gen">Female</label>&nbsp;&nbsp;
+            <input type="radio" name="gen" id="g3" value="o"><label for="gen">Others</label>
+        </div>
+        <br>
+        <div>
+            <label for="date">Enter Date of Birth:&nbsp;&nbsp;</label>
+            <input type="date" name="date" id="date" placeholder="Enter Date of Birth">
+        </div>
+        <br>
+        <div>
+            <label for="phone">Enter phone number:&nbsp;</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter phone number">
+        </div>
+        <br>
+        <div>
+            <label for="Addr"> Enter peremenent Address:&nbsp;</label>
+            <input type="text" name="Addr" id="Addr" placeholder="Home address">
+        </div>
+        <br>
+        <div>
+            <label for="addr">Cureent city:&nbsp;</label><input type="text" name="addr" id="addr"
+                placeholder="Cureent city">
+        </div>
+        <br>
+        <div>
+            <label for="addr">Entere State Name:</label>
+            <select name="addr" id="addr">
+                <option value="Ap"> Andhra Pradesh</option>
+                <option value="Aup">Arunachal Pradesh</option>
+                <option value=""> Assam</option>
+                <option value="">Bihar</option>
+                <option value="">Chhattisgarh</option>
+                <option value="">Goa</option>
+                <option value=""> Gujarat</option>
+                <option value="">Haryana</option>
+                <option value="">Himachal Pradesh</option>
+                <option value="">Jharkhand</option>
+                <option value=""> Karnataka</option>
+                <option value=""> Kerala</option>
+                <option value=""> Madhya Pradesh</option>
+                <option value="">Maharashtra</option>
+                <option value=""> Manipur</option>
+                <option value="">Meghalaya</option>
+                <option value="">Mizoram</option>
+                <option value=""> Nagaland</option>
+                <option value="">Odisha</option>
+                <option value="">Punjab</option>
+                <option value=""> Rajasthan</option>
+                <option value=""> Sikkim</option>
+                <option value="">Tamil Nadu</option>
+                <option value="">Telangana</option>
+                <option value="">Tripura</option>
+                <option value="">Uttar Pradesh</option>
+                <option value="">Uttarakhand</option>
+                <option value="">West Bengal</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="pin">Enter PIN:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" name="pin" id="p">
+        </div>
+        <br>
+        <div>
+            <label for="email">Enter eamil Address:</label>
+            <input type="email" name="email" id="eamil">
+        </div>
+        <br>
+        <div>
+            <label for="email">Enter Alterantive eamil Address:</label>
+            <input type="email" name="email" id="eamil">
+        </div>
+        <br>
+        <div>
+            <label for="clg">Enter your collage</label>
+            <select name="clg" id="clg">
+                <option value="GRIET">Gokaraju Rangaraju Institute of Engineering and Technology</option>
+                <option value="VNR VJIET">VNR Vignana Jyothi Institute of Engineering and Technology</option>
+                <option value="CVRCE">CVR College of Engineering</option>
+                <option value="VCE" selected>Vardhaman College of Engineering</option>
+                <option value="CBIT">Chaitanya Bharathi Institute of Technology</option>
+                <option value="VNR VJIET">VNR Vignana Jyothi Institute of Engineering and Technology</option>
+                <option value="CVRCE">CVR College of Engineering</option>
+                <option value="VCE" selected>Vardhaman College of Engineering</option>
+                <option value="CBIT">Chaitanya Bharathi Institute of Technology</option>
+                <option value="MRIET">Malla Reddy Institute of Engineering and Technology</option>
+                <option value="GNIT">Guru Nanak Institute of Technology</option>
+                <option value="VITS">Vignan Institute of Technology and Science</option>
+                <option value="kITS">Kodad Institute of Technology and Science</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="spe">Education:</label>
+            <select name="spe" id="spe">
+                <option value=""> Medical and Healthcare Professions</option>
+                <option value="">Legal Professions</option>
+                <option value="">Academic and Research Positions</option>
+                <option value="">Information Technology and Computer Science</option>
+                <option value="">Engineering</option>
+                <option value="">Finance and Business</option>
+                <option value="">Science and Technology</option>
+                <option value="">Psychology and Counseling</option>
+                <option value="">Education Administration</option>
+                <option value="">Architecture</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Clear all">
+        </div>
+        <br>
+        <div>
+            <h3>About courses</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptatem, molestias doloremque sit
+                amet inventore omnis quibusdam assumenda iusto commodi ab. Commodi neque dicta praesentium fugit
+                repellendus voluptas aspernatur. Ipsam.</p>
+        </div>
+        <br>
+        <div>
+            <h3>courses available:</h5>
+                <h6>html</h6>
+                <h6>css</h6>
+                <h6>java</h6>
+                <h6>javascrpt</h6>
+                <h6>datasttructure</h6>
+                <h3> <strike>nodejs:-</strike>all seats are booked</h3>
+        </div>
+        <br>
+        <textarea name="choice" id="choice" cols="30" rows="10">feild of interest why</textarea>
+        <br>
+        <div class="contanier">
+            <h3>Fee structure</h5>
+                <select name="Fee" id="fee">
+                    <option value="">10000 &#8377;</option>
+                    <option value="">20000 &#8377;</option>
+                    <option value="">30000 &#8377;</option>
+                    <option value="">40000 &#8377;</option>
+                </select>
+        </div>
+        <br>
+
+        <hr>
+        <h1>image section</h1>
+        <div><img src="image/img1.jpg" width=500 alt="Loading">
+        </div><br>
+        <div>
+            <img src="image/gif.gif" width=500 title="woowwwwwwwww" border="15" alt="">
+        </div>
+        <div border="15">
+            <img src="image/gif1.gif" width="300" height="400" alt="">
+
+            <img src="image/img2.jpg" width="300" height="400" &nbsp; alt="">
+            <img src="image/jareena linkdin.jpg" width="300" height="400" &nbsp; alt="">
+            <img src="https://imgs.search.brave.com/HglNwgO5srIOPH8zNZbO-pTGuR_MGdddYK5XVAJIVQg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/YW5pbWF0ZWRpbWFn/ZXMub3JnL2RhdGEv/bWVkaWEvNDkvYW5p/bWF0ZWQtYmlydGhk/YXktaW1hZ2UtMDAx/OS5naWY.gif"
+                width="500" alt="">
+        </div>
+
+        <hr>
+        <h1>hyperlink tags anchor tags</h1>
+        <a href="file1.html">goto file 1 example</a>
+        <br>
+        <a href="fff.html">go to fff file</a>
+        <br>
+        <a href="https://google.com" target="_blank">go to google</a>
+        <br>
+        <a target="_blank"
+            href="https://www.amazon.in/b/?_encoding=UTF8&node=1983518031&pd_rd_w=Fcnmv&content-id=amzn1.sym.156c27b9-1c29-49c8-b0e4-f9886b7604ec&pf_rd_p=156c27b9-1c29-49c8-b0e4-f9886b7604ec&pf_rd_r=5XV40Z92SA6SY5QWXH1Q&pd_rd_wg=EckEh&pd_rd_r=44d53a30-3d66-4dee-bf6d-733ddd1a2268&ref_=pd_gw_unk">
+            <img src="images/footware.jpg" width="130" height="120"> <br>
+            Footware
+        </a>
+        <br>
+        <a
+            href="https://www.flipkart.com/aadvika-printed-daily-wear-pure-silk-art-silk-saree/p/itm9f21c740f577c?pid=SARGUXCNYTYHSSDC&lid=LSTSARGUXCNYTYHSSDC0VLGKP&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Fashion~Women%2BEthnic_HQXTE43PO8HC&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L1_view-all&fm=organic&iid=en_OW-ADMnR1BqweQdzfZWykESWs6jZBNu1uccOKqcPDpBuQ05XGLJ3q_8LSziU84vpB27MnW6qi5YLIP5J4p4VEw%3D%3D&ppt=hp&ppn=homepage&ssid=147quexh9s0000001703484893851">
+            <img src="image/saree.webp" width="130" height="120" alt="">
+            <br>
+            Designed saree ethintic wear
+        </a>
+        <a href="image/(42) Secret Windows Shortcuts - YouTube - Brave 2023-09-11 16-19-17.mp4">mp4 video</a><br>
+        <a href="image/1755d802-b2a5-40cd-8332-f3b8715bfb30CURRICULAM_VITAE (1).doc">open word file</a><br>
+        <a href="image/gif.gif">click here for gif</a><br>
+        <a href="image/img1.jpg">kjv</a><br>
+        <hr>
+        <h1>list tags</h1>
+        <ul type="disc">
+            <h4>types of job portals</h4>
+            <li>linkdin</li>
+            <ol type="A">
+                <li>foundit</li>
+                <li>easy apply</li>
+                <li>hackerrank</li>
+            </ol>
+            <li>instagram</li>
+            <li>communitys in whatsapp</li>
+            <li>facebook</li>
+            <li>glass door</li>
+            <li>nookuri</li>
+        </ul>
+        <hr color="Red">
+        <ul type="square">
+            <li>Bluetooth version: 5.3</li>
+            <li>Wireless range: 10 m</li>
+            <li>Battery life: 28 hrs | Charging time: 1.5 hrs</li>
+            <li>Fast charging - 10min charge for up to 120min playback</li>
+            <li>10mm Dynamic Bass Driver for Real HD Sound & AI ENC for </li>
+            <li>Google Fast Pair | IPX5 Water Resistant | realme Link App Support</li>
+            <li>Gaming Mode with 88ms Super Low Latency | Intelligent Touch Controls</li>
+
+        </ul>
+        <br>
+        <ul>
+            <li>Galaxy S23</li>
+            <li>Z Fold 4</li>
+            <li>Flip 5</li>
+        </ul>
+        <br>
+        <hr>
+        <br>
+        <fieldset style="border: 2px solid rgb(136, 37, 124);text-align: center; border-radius: 30px;">
+            <legend style="border: 2px solid blue; font-family:Forte;text-align: left;">My courses</legend>
+            <h1>HTML</h1>
+            <h2>CSS</h2>
+            <h3>JavaScript</h3>
+            <p>BootStrap</p>
+        </fieldset>
+
+        <hr>
+
+        <br>
+
+        <div style="background-color: cyan;color: rgb(18, 20, 21);text-align: center;display:inline-block;width: 40%;">
+            <h1>jareena shaik</h1>
+            <h2>jareena shaik</h2>
+            <h2>jareena shaik</h2>
+            <h2>jareena shaik</h2>
+            <h3>jareena shaik</h3>
+        </div>
+        <div style="background-color: rgb(202, 57, 173);color: black;border-radius: 10px;width: 40%;height: auto;">
+            <h1>HTML</h1>
+            <h2>CSS</h2>
+            <h3>JavaScript</h3>
+            <p>BootStrap</p>
+        </div>
+        <hr>
+        <br>
+        <h1>table tags</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>no</th>
+                    <th>name</th>
+                    <th>role</th>
+                    <th>ide</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>20</td>
+                    <td>jara</td>
+                    <td>java developer</td>
+                    <td>eclipse</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h1>creating table based on flipkart reference</h1>
+        <table>
+            <caption>
+                <h1>Best mobile sales with there discount </h1>
+            </caption>
+            <tr>
+
+                <td><img src="image/phone1.webp" alt=""></td><br>
+                <td>
+                    <h3>APPLE iPhone 14 (Blue, 128 GB)</h3>
+                    4.62,54,191 Ratings & 9,825 Reviews
+                    <ul>
+                        <li>128 GB ROM</li>
+                        <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                        <li>12MP + 12MP | 12MP Front Camera</li>
+                        <li>A15 Bionic Chip, 6 Core Processor Processor</li>
+                        <li>Easy Payment Options</li>
+                        <li>EMI starting from ₹2,040/month</li>
+                        <li>Cash on Delivery
+                            Net banking & Credit/ Debit/ ATM card</li>
+                        <li>7 Days Service Center Replacement/Repair?
+                            GST invoice available?</li>
+                    </ul>
+                </td>
+                <td>
+                    <strong>&#837757,999</strong>17% off
+                    <strike>&#8377 10000</strike><br>
+                    <em>12%</em>
+                </td>
+            </tr>
+        </table>
+        <input type="text" name="jare" id="jare"value="jareena"readonly>
+        <br>
+        <input type="texT" id="abc" name="abc" value="mango"  readonly>
+    
+	<br>
+	<input type *="text" id="x" name="y" value="1000" required>
+    <br>
+        <input type="text" name="abc" id="abc" maxlength="10">
+        <br>
+        <input type="text" name="abc" id="abc"value=1000>
+        <br>
+        <input type="number" name="num" id="num"maxlength="3">
+        <input type="numbeR" id="n" min="0" max="300" step="10">
+        <br>
+        <input type="password" placeholder="enter card cvv" maxlength="3">
+        <br>
+        <input type="password" name="abc" id="abc" maxlength="3">
+        <hr>
+        <div>
+            <input type="file" name="file " id="file" multiple>
+        </div>
+        <br>
+        <div>
+            <input type="file" name="file" id="file"accept=".pdf">
+            <input type="submit" value="Upload">
+        </div>
+        <br>
+        <div>
+            <label>Address</label> <br>
+	<textarea id="addr" name="addr" rows="6" cols="25"></textarea>
+
+        </div>
+        <br>
+        <h1>entry form</h1>
+        <form action="https//:google.com/register" method="post">
+            <div>
+        <div>
+        <label for="name">Enter your name*</label>
+        <input type="text" name="name" id="name" required autofocus>
+        </div>
+        <br>
+    
+        <div>
+            <label for="pass">Enter your password*</label>
+            <input type="password" name="pass" id="pass" required maxlength="4" autocomplete="off">
+        </div>
+        <br>
+        <div>
+            <button type="submit" name="sb">Log in</button>
+        </div><br>
+    
+    </form>
+    <a href="forgetpass">Forgetten password</a><br>
+    <a href="logo.html">Create new account</a>
+    </div>
+    </form>
+
+</body>
+
+</html>
